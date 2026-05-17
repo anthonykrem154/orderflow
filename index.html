@@ -321,7 +321,135 @@
         font-size: 32px;
       }
     }
-    
+    /* ADD THIS ENTIRE SECTION AT THE VERY BOTTOM OF YOUR CSS */
+
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .container {
+    width: calc(100% - 24px);
+  }
+
+  .top-bar-inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 6px;
+    font-size: 12px;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 0;
+  }
+
+  .logo {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .nav-links {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+    padding: 14px 18px;
+  }
+
+  .hero {
+    padding: 70px 0 60px;
+  }
+
+  .hero h1 {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+
+  .hero p {
+    font-size: 15px;
+    padding: 0 4px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .stats {
+    grid-template-columns: 1fr;
+    margin-top: 40px;
+  }
+
+  .stat-card {
+    padding: 22px;
+    text-align: center;
+  }
+
+  section {
+    padding: 65px 0;
+  }
+
+  .section-title {
+    margin-bottom: 35px;
+  }
+
+  .section-title h2 {
+    font-size: 30px;
+  }
+
+  .section-title p {
+    font-size: 14px;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .feature-card {
+    padding: 22px;
+  }
+
+  .feature-card h3 {
+    font-size: 20px;
+  }
+
+  .pricing-card {
+    width: 100%;
+    padding: 28px 22px;
+    border-radius: 20px;
+  }
+
+  .price {
+    font-size: 52px;
+  }
+
+  .pricing-list {
+    margin: 24px 0;
+  }
+
+  .pricing-list li {
+    font-size: 14px;
+  }
+
+  footer {
+    font-size: 13px;
+    padding: 35px 0;
+  }
+
+}
   </style>
 </head>
 
